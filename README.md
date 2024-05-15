@@ -22,4 +22,4 @@ To get started with the tutorial, follow these steps:
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
