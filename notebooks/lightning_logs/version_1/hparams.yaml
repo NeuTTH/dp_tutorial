@@ -1,0 +1,6 @@
+batch_size: 32
+in_channels: 62
+latent_channels: 10
+lr: 0.0001
+out_channels: 31
+time_range: 39

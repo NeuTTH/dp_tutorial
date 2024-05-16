@@ -1,16 +1,11 @@
 import numpy as np
-
 import torch
-import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 from torch.nn.parameter import Parameter
 
 import pytorch_lightning as pl
-
-# from base.pae_network import *
-from base.pae_network_new import *
-
+from base.pae_network import *
 
 class deep_phase(pl.LightningModule):
     def __init__(

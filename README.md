@@ -16,7 +16,7 @@ The `dp_tutorial` folder is organized as follows:
 To get started with the tutorial, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Install the required dependencies listed in the `requirements.txt` file.
+2. Install the required dependencies listed in the `environment.yml` file thru this command `conda env create -f environment.yml -p /scratch/gpfs/tt1131/.conda/envs/deepphase`
 3. Train the model with the scripts in the `train_scripts/` folder.
 4. Open the Jupyter notebooks in the `notebooks/` folder and follow the instructions.
 

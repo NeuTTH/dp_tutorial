@@ -5,7 +5,6 @@ import pytorch_lightning as pl
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
 
-
 class SeqDataset(torch.utils.data.Dataset):
     def __init__(self, seqs, states, window, *args, **kwargs):
         self.seqs = seqs
