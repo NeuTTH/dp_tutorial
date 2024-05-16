@@ -3,7 +3,9 @@
 This folder contains the files and resources for a minimal re-implementation of [DeepPhase](https://github.com/sebastianstarke/AI4Animation/tree/master/AI4Animation/SIGGRAPH_2022/PyTorch). The original implementation contains only the barebone model, while this repository contains the full pipeline powered by Pytorch Lightning and Wandb.
 
 Author: Dexter Tsin
+
 Email: [dexter.tsin@princeton.edu](mailto:dexter.tsin@princeton.edu)
+
 Last updated: 5/15/2024
 
 ## Overview
