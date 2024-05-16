@@ -89,6 +89,7 @@ trainer = pl.Trainer(
     check_val_every_n_epoch=1,
     deterministic=True,
     callbacks=[lr_monitor, checkpoint_callback],
+    enable_progress_bar=False
 )
 trainer.fit(model, datamodule=dm)
 
